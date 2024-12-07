@@ -18,6 +18,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
     origin:'https://bkc-job-21k8.vercel.app',
+    methods:['GET,POST,PUT,DELETE'],
     credentials:true
 }
 
