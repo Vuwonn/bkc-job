@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin: 'bkc-job-21k8-bfwcoo977-bhuwan-chaudharys-projects.vercel.app',
+    origin: 'https://bkc-job-21k8-nnqkf2ghl-bhuwan-chaudharys-projects.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 };
